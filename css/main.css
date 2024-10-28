@@ -11,14 +11,8 @@ html{
     font-size: 62.5%;   /*Tamaño de letra*/
     box-sizing: border-box; /*Hack para el manejo de box model*/
     background-image: linear-gradient(to top, var(--gris_claro) 0%, var(--blanco) 100%); /*Es el color del fondo de nuestro HTML, en este caso es un gradiente que va de blanco a gris claro*/
-    scroll-snap-type: y mandatory; /*Desplazamiento del contenedor*/
 }
 
- /*Desplazamiento del contenedor y dividimos las secciones de como queremos que se desplace*/
-.titulo, .servicios-heading, .contacto-heading{
-    scroll-snap-align: start; 
-    scroll-snap-stop: always; 
-}
 
 /*Hack para el manejo de box model*/
 *, *::before,*::after{
